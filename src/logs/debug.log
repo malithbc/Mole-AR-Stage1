@@ -1,0 +1,257 @@
+INFO 2021-07-29 17:01:21,600 autoreload 195760 196092 Watching for file changes with StatReloader
+INFO 2021-07-29 17:02:12,202 views 195760 184340 <QueryDict: {'image': [<InMemoryUploadedFile: img3-3.jpg (image/jpeg)>]}>
+INFO 2021-07-29 17:02:21,133 basehttp 195760 184340 "POST /playground/find-image/ HTTP/1.1" 200 77
+INFO 2021-07-29 17:03:09,935 autoreload 195760 196092 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:03:11,805 autoreload 195996 191180 Watching for file changes with StatReloader
+INFO 2021-07-29 17:04:07,987 views 195996 194048 <QueryDict: {'image': [<InMemoryUploadedFile: ori-1.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-29 17:04:10,540 basehttp 195996 194048 "POST /playground/upload-image/ HTTP/1.1" 200 139
+INFO 2021-07-29 17:06:54,313 views 195996 194048 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-29 17:06:59,413 basehttp 195996 194048 "POST /playground/upload-image/ HTTP/1.1" 200 103
+INFO 2021-07-29 17:07:29,464 autoreload 195996 191180 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:07:31,126 autoreload 193728 194936 Watching for file changes with StatReloader
+INFO 2021-07-29 17:07:35,244 autoreload 193728 194936 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:07:36,572 autoreload 196248 196376 Watching for file changes with StatReloader
+INFO 2021-07-29 17:07:44,285 views 196248 195848 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-29 17:07:46,116 basehttp 196248 195848 "POST /playground/upload-image/ HTTP/1.1" 200 103
+INFO 2021-07-29 17:07:58,613 views 196248 195848 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-29 17:08:00,541 basehttp 196248 195848 "POST /playground/upload-image/ HTTP/1.1" 200 103
+INFO 2021-07-29 17:09:17,322 autoreload 196248 196376 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:09:18,924 autoreload 194244 186344 Watching for file changes with StatReloader
+INFO 2021-07-29 17:09:24,213 autoreload 194244 186344 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:09:25,610 autoreload 191208 196176 Watching for file changes with StatReloader
+INFO 2021-07-29 17:09:37,148 views 191208 196048 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+ERROR 2021-07-29 17:09:37,148 views 191208 196048 
+INFO 2021-07-29 17:09:39,928 basehttp 191208 196048 "POST /playground/upload-image/ HTTP/1.1" 200 103
+INFO 2021-07-29 17:10:46,355 autoreload 191208 196176 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:10:48,705 autoreload 191072 190908 Watching for file changes with StatReloader
+INFO 2021-07-29 17:10:53,478 autoreload 191072 190908 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:10:55,080 autoreload 189260 194244 Watching for file changes with StatReloader
+INFO 2021-07-29 17:11:03,462 views 189260 190908 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+ERROR 2021-07-29 17:11:03,463 views 189260 190908 Error
+INFO 2021-07-29 17:11:03,463 views 189260 190908 Hello
+INFO 2021-07-29 17:11:05,389 basehttp 189260 190908 "POST /playground/upload-image/ HTTP/1.1" 200 103
+INFO 2021-07-29 17:11:46,033 autoreload 189260 194244 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:11:47,311 autoreload 196308 193728 Watching for file changes with StatReloader
+INFO 2021-07-29 17:12:02,315 autoreload 196308 193728 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:12:04,422 autoreload 185796 195736 Watching for file changes with StatReloader
+INFO 2021-07-29 17:12:37,954 autoreload 185796 195736 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:12:39,356 autoreload 190428 194172 Watching for file changes with StatReloader
+INFO 2021-07-29 17:12:56,325 autoreload 190428 194172 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:12:58,000 autoreload 185796 196176 Watching for file changes with StatReloader
+INFO 2021-07-29 17:13:15,124 autoreload 185796 196176 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:13:16,957 autoreload 197480 197484 Watching for file changes with StatReloader
+INFO 2021-07-29 17:13:30,383 autoreload 197480 197484 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:13:31,968 autoreload 197580 196664 Watching for file changes with StatReloader
+INFO 2021-07-29 17:14:07,297 autoreload 197580 196664 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:14:09,344 autoreload 196716 197440 Watching for file changes with StatReloader
+INFO 2021-07-29 17:14:17,678 autoreload 196716 197440 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:14:19,459 autoreload 196688 197088 Watching for file changes with StatReloader
+INFO 2021-07-29 17:14:29,929 autoreload 196688 197088 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:14:31,921 autoreload 197000 195180 Watching for file changes with StatReloader
+INFO 2021-07-29 17:15:04,875 autoreload 197000 195180 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:15:06,900 autoreload 197744 197740 Watching for file changes with StatReloader
+INFO 2021-07-29 17:15:12,613 autoreload 197744 197740 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:15:14,670 autoreload 198116 198104 Watching for file changes with StatReloader
+INFO 2021-07-29 17:15:24,704 autoreload 198116 198104 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:15:25,925 autoreload 194028 198304 Watching for file changes with StatReloader
+INFO 2021-07-29 17:15:32,737 autoreload 194028 198304 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:15:34,989 autoreload 197764 198024 Watching for file changes with StatReloader
+INFO 2021-07-29 17:15:43,731 autoreload 197764 198024 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:15:46,022 autoreload 198604 197408 Watching for file changes with StatReloader
+INFO 2021-07-29 17:16:02,774 autoreload 198604 197408 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:16:04,972 autoreload 194400 197676 Watching for file changes with StatReloader
+INFO 2021-07-29 17:16:47,624 autoreload 194400 197676 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:16:49,238 autoreload 195244 197148 Watching for file changes with StatReloader
+INFO 2021-07-29 17:16:57,442 autoreload 195244 197148 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:16:58,952 autoreload 197588 197828 Watching for file changes with StatReloader
+INFO 2021-07-29 17:17:05,515 autoreload 197588 197828 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:17:07,398 autoreload 196388 197540 Watching for file changes with StatReloader
+INFO 2021-07-29 17:17:20,581 autoreload 196388 197540 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:17:22,227 autoreload 197744 197748 Watching for file changes with StatReloader
+INFO 2021-07-29 17:17:35,903 autoreload 197744 197748 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:17:37,038 autoreload 196484 197420 Watching for file changes with StatReloader
+INFO 2021-07-29 17:17:39,824 autoreload 196484 197420 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:17:41,060 autoreload 193756 190380 Watching for file changes with StatReloader
+INFO 2021-07-29 17:17:54,325 autoreload 193756 190380 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:17:55,951 autoreload 191176 197296 Watching for file changes with StatReloader
+INFO 2021-07-29 17:18:00,045 autoreload 191176 197296 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:18:01,343 autoreload 198312 188540 Watching for file changes with StatReloader
+INFO 2021-07-29 17:18:26,758 autoreload 198312 188540 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:18:28,144 autoreload 196532 195060 Watching for file changes with StatReloader
+INFO 2021-07-29 17:18:32,589 autoreload 196532 195060 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:18:34,371 autoreload 196624 194804 Watching for file changes with StatReloader
+INFO 2021-07-29 17:18:41,908 autoreload 196624 194804 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:18:43,521 autoreload 197608 197440 Watching for file changes with StatReloader
+INFO 2021-07-29 17:19:14,992 autoreload 197608 197440 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:19:16,607 autoreload 191212 194920 Watching for file changes with StatReloader
+INFO 2021-07-29 17:19:32,576 autoreload 191212 194920 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:19:34,002 autoreload 192900 196444 Watching for file changes with StatReloader
+INFO 2021-07-29 17:19:43,718 autoreload 192900 196444 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:19:45,401 autoreload 195176 190496 Watching for file changes with StatReloader
+INFO 2021-07-29 17:19:50,807 autoreload 195176 190496 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:19:52,128 autoreload 195476 196316 Watching for file changes with StatReloader
+INFO 2021-07-29 17:20:07,721 autoreload 195476 196316 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:20:09,446 autoreload 191584 196992 Watching for file changes with StatReloader
+INFO 2021-07-29 17:20:19,540 autoreload 191584 196992 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:20:20,839 autoreload 197656 198224 Watching for file changes with StatReloader
+INFO 2021-07-29 17:20:25,265 autoreload 197656 198224 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:20:26,485 autoreload 186968 197044 Watching for file changes with StatReloader
+INFO 2021-07-29 17:20:37,920 autoreload 186968 197044 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:20:39,886 autoreload 198244 196776 Watching for file changes with StatReloader
+INFO 2021-07-29 17:20:47,390 autoreload 198244 196776 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:20:48,601 autoreload 197704 196924 Watching for file changes with StatReloader
+INFO 2021-07-29 17:21:28,758 autoreload 197704 196924 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:21:31,058 autoreload 187968 197636 Watching for file changes with StatReloader
+INFO 2021-07-29 17:21:34,204 autoreload 187968 197636 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:21:36,529 autoreload 196288 191424 Watching for file changes with StatReloader
+INFO 2021-07-29 17:21:40,724 autoreload 196288 191424 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:21:41,921 autoreload 196976 196232 Watching for file changes with StatReloader
+INFO 2021-07-29 17:21:45,061 autoreload 196976 196232 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:21:46,618 autoreload 170920 197572 Watching for file changes with StatReloader
+INFO 2021-07-29 17:21:58,786 autoreload 170920 197572 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:00,942 autoreload 195908 191544 Watching for file changes with StatReloader
+INFO 2021-07-29 17:22:04,639 autoreload 195908 191544 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:06,152 autoreload 197548 198140 Watching for file changes with StatReloader
+INFO 2021-07-29 17:22:33,619 autoreload 197548 198140 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:34,870 autoreload 197528 192220 Watching for file changes with StatReloader
+INFO 2021-07-29 17:22:42,240 autoreload 197528 192220 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:43,622 autoreload 196484 198576 Watching for file changes with StatReloader
+INFO 2021-07-29 17:22:47,089 autoreload 196484 198576 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:49,080 autoreload 190428 195776 Watching for file changes with StatReloader
+INFO 2021-07-29 17:22:54,307 autoreload 190428 195776 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:22:55,965 autoreload 197548 197856 Watching for file changes with StatReloader
+INFO 2021-07-29 17:23:01,472 autoreload 197548 197856 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:23:02,666 autoreload 183776 196520 Watching for file changes with StatReloader
+INFO 2021-07-29 17:23:31,261 autoreload 183776 196520 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:23:33,193 autoreload 197508 194672 Watching for file changes with StatReloader
+INFO 2021-07-29 17:23:35,079 autoreload 197508 194672 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:23:36,169 autoreload 197228 190100 Watching for file changes with StatReloader
+INFO 2021-07-29 17:23:39,329 autoreload 197228 190100 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:23:41,038 autoreload 195984 198072 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:16,952 autoreload 195984 198072 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:18,884 autoreload 196560 196268 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:21,463 autoreload 196560 196268 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:22,872 autoreload 197940 197096 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:28,892 autoreload 197940 197096 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:30,614 autoreload 197240 192180 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:33,145 autoreload 197240 192180 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:34,743 autoreload 196832 197648 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:37,771 autoreload 196832 197648 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:39,347 autoreload 195908 196788 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:46,148 autoreload 195908 196788 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:47,370 autoreload 196548 197688 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:53,516 autoreload 196548 197688 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:24:55,512 autoreload 198244 198084 Watching for file changes with StatReloader
+INFO 2021-07-29 17:24:58,322 autoreload 198244 198084 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:00,314 autoreload 197952 195648 Watching for file changes with StatReloader
+INFO 2021-07-29 17:25:11,081 autoreload 197952 195648 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:12,994 autoreload 196540 197032 Watching for file changes with StatReloader
+INFO 2021-07-29 17:25:27,246 autoreload 196540 197032 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:29,412 autoreload 191892 197292 Watching for file changes with StatReloader
+INFO 2021-07-29 17:25:31,442 autoreload 191892 197292 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:32,886 autoreload 197940 197212 Watching for file changes with StatReloader
+INFO 2021-07-29 17:25:45,329 autoreload 197940 197212 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:46,593 autoreload 194708 179500 Watching for file changes with StatReloader
+INFO 2021-07-29 17:25:49,707 autoreload 194708 179500 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:25:50,949 autoreload 196412 192588 Watching for file changes with StatReloader
+INFO 2021-07-29 17:26:01,854 autoreload 196412 192588 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:26:03,407 autoreload 197548 194564 Watching for file changes with StatReloader
+INFO 2021-07-29 17:26:41,509 autoreload 197548 194564 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:26:43,207 autoreload 194220 193564 Watching for file changes with StatReloader
+INFO 2021-07-29 17:26:45,646 autoreload 194220 193564 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:26:46,900 autoreload 193728 192472 Watching for file changes with StatReloader
+INFO 2021-07-29 17:26:57,801 autoreload 193728 192472 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:26:59,443 autoreload 197580 197224 Watching for file changes with StatReloader
+INFO 2021-07-29 17:27:31,982 autoreload 197580 197224 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:27:33,562 autoreload 196976 196892 Watching for file changes with StatReloader
+INFO 2021-07-29 17:27:38,695 autoreload 196976 196892 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:27:40,585 autoreload 189260 198636 Watching for file changes with StatReloader
+INFO 2021-07-29 17:27:49,526 autoreload 189260 198636 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:27:51,074 autoreload 197812 196712 Watching for file changes with StatReloader
+INFO 2021-07-29 17:27:56,599 autoreload 197812 196712 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:27:58,093 autoreload 198236 195024 Watching for file changes with StatReloader
+INFO 2021-07-29 17:28:45,223 autoreload 198236 195024 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:28:47,240 autoreload 194980 189260 Watching for file changes with StatReloader
+INFO 2021-07-29 17:28:50,471 autoreload 194980 189260 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:28:52,267 autoreload 190884 198100 Watching for file changes with StatReloader
+INFO 2021-07-29 17:29:01,230 autoreload 190884 198100 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:29:02,409 autoreload 191416 196888 Watching for file changes with StatReloader
+INFO 2021-07-29 17:29:31,375 autoreload 191416 196888 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:29:33,647 autoreload 196996 194184 Watching for file changes with StatReloader
+INFO 2021-07-29 17:29:44,203 autoreload 196996 194184 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:29:46,361 autoreload 196912 197092 Watching for file changes with StatReloader
+INFO 2021-07-29 17:29:57,071 autoreload 196912 197092 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:29:58,272 autoreload 193788 196752 Watching for file changes with StatReloader
+INFO 2021-07-29 17:30:05,018 autoreload 193788 196752 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:30:06,661 autoreload 195820 197300 Watching for file changes with StatReloader
+INFO 2021-07-29 17:30:24,816 autoreload 195820 197300 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:30:26,108 autoreload 197200 196528 Watching for file changes with StatReloader
+INFO 2021-07-29 17:31:44,900 autoreload 197200 196528 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\utils.py changed, reloading.
+INFO 2021-07-29 17:31:46,367 autoreload 198032 195736 Watching for file changes with StatReloader
+INFO 2021-07-29 17:32:49,847 autoreload 198032 195736 C:\Users\Malith\OneDrive\Documents\Python\StoreFront\playground\views.py changed, reloading.
+INFO 2021-07-29 17:32:51,606 autoreload 196556 185644 Watching for file changes with StatReloader
+INFO 2021-07-29 17:33:04,920 views 196556 196128 <QueryDict: {'image': [<InMemoryUploadedFile: 52_7K9Z.pdb.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-29 17:33:08,145 views 196556 196128 Image uploaded successfully
+INFO 2021-07-29 17:33:08,556 basehttp 196556 196128 "POST /playground/upload-image/ HTTP/1.1" 200 181
+INFO 2021-07-30 11:53:16,279 autoreload 20676 18168 Watching for file changes with StatReloader
+INFO 2021-07-30 12:07:49,040 views 20676 23204 {'username': 'malithbc', 'email': 'malithattanayaka99@gmail.com', 'password': '12345'}
+INFO 2021-07-30 12:07:53,691 views 20676 23204 Send email to activate account
+INFO 2021-07-30 12:08:02,825 basehttp 20676 23204 "POST /playground/register/ HTTP/1.1" 200 154
+INFO 2021-07-30 12:11:20,882 views 20676 22440 received token : 4cae8d5b7a4236129d442bfe3bf1e55e32059472
+INFO 2021-07-30 12:11:21,309 views 20676 22440 Email is activated
+INFO 2021-07-30 12:11:21,761 basehttp 20676 22440 "GET /playground/email-verify/?token=4cae8d5b7a4236129d442bfe3bf1e55e32059472 HTTP/1.1" 200 15240
+INFO 2021-07-30 12:11:24,104 basehttp 20676 22440 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-07-30 12:11:24,105 basehttp 20676 19556 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-07-30 12:11:24,111 basehttp 20676 19544 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-07-30 12:11:24,118 basehttp 20676 19556 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-07-30 12:11:24,130 basehttp 20676 22440 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-07-30 12:11:24,131 basehttp 20676 19544 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-07-30 12:11:24,132 basehttp 20676 22576 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-07-30 12:11:24,133 basehttp 20676 19556 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-07-30 12:11:24,149 basehttp 20676 22440 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11461
+INFO 2021-07-30 12:11:24,150 basehttp 20676 19544 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 10452
+INFO 2021-07-30 12:11:24,151 basehttp 20676 22564 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-07-30 12:11:24,158 basehttp 20676 17528 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-07-30 12:11:24,252 basehttp 20676 19544 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2021-07-30 12:11:24,370 basehttp 20676 19544 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 2988
+INFO 2021-07-30 12:11:24,587 basehttp 20676 19544 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+WARNING 2021-07-30 12:11:24,766 log 20676 19544 Not Found: /favicon.ico
+WARNING 2021-07-30 12:11:24,768 basehttp 20676 19544 "GET /favicon.ico HTTP/1.1" 404 11915
+INFO 2021-07-30 12:11:54,947 views 20676 23204 b'{\r\n    "username":"malithbc",\r\n    "password":"12345"\r\n}'
+INFO 2021-07-30 12:11:57,811 basehttp 20676 23204 "POST /playground/login/ HTTP/1.1" 200 135
+WARNING 2021-07-30 12:14:53,372 log 20676 23204 Not Found: /playground/laccept-upload-image/
+WARNING 2021-07-30 12:14:53,373 basehttp 20676 23204 "POST /playground/laccept-upload-image/ HTTP/1.1" 404 13916
+INFO 2021-07-30 12:15:11,236 views 20676 23204 <QueryDict: {'image': [<InMemoryUploadedFile: ori-3.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: h2o.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: h2o.mtl (model/mtl)>]}>
+INFO 2021-07-30 12:15:15,567 views 20676 23204 Image uploaded successfully
+INFO 2021-07-30 12:15:15,794 basehttp 20676 23204 "POST /playground/accept-upload-image/ HTTP/1.1" 200 158
+INFO 2021-07-30 12:17:02,531 autoreload 20676 18168 D:\Project\TestDjango\playground\utils.py changed, reloading.
+INFO 2021-07-30 12:17:06,434 autoreload 22288 13788 Watching for file changes with StatReloader
+INFO 2021-09-26 11:56:46,615 autoreload 55372 67092 Watching for file changes with StatReloader
+INFO 2021-09-26 11:59:36,065 views 55372 68292 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2021-09-26 11:59:40,356 basehttp 55372 68292 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2021-10-19 20:05:47,193 autoreload 79008 79696 Watching for file changes with StatReloader
+INFO 2021-10-19 20:08:43,427 views 79008 73684 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2021-10-19 20:08:48,588 basehttp 79008 73684 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2021-10-19 20:10:50,678 views 79008 73684 <QueryDict: {'image': [<InMemoryUploadedFile: ori-8.jpg (image/jpeg)>], 'object_3D': [<InMemoryUploadedFile: c2h6.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: c2h6.mtl (model/mtl)>]}>
+INFO 2021-10-19 20:10:56,620 views 79008 73684 Image uploaded successfully
+INFO 2021-10-19 20:10:56,901 basehttp 79008 73684 "POST /playground/upload-image/ HTTP/1.1" 200 168
+INFO 2021-10-27 14:39:19,043 autoreload 11256 15476 Watching for file changes with StatReloader
+INFO 2021-10-27 14:39:56,989 views 11256 18536 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2021-10-27 14:40:00,058 basehttp 11256 18536 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2021-10-27 14:40:06,524 basehttp 11256 18620 code 400, message Bad request version ('À\x13À')
+ERROR 2021-10-27 14:40:06,525 basehttp 11256 18620 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2021-11-02 19:42:52,384 autoreload 37020 35700 Watching for file changes with StatReloader
+INFO 2021-11-02 19:45:55,611 basehttp 37020 39172 code 400, message Bad request syntax ('\x16\x03\x01\x00å\x01\x00\x00á\x03\x03»úÃAJÂQ:×E\x847\x922')
+ERROR 2021-11-02 19:45:55,612 basehttp 37020 39172 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2021-11-02 19:46:25,116 views 37020 39052 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2021-11-02 19:46:27,303 basehttp 37020 39052 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2021-11-02 19:52:18,158 views 37020 39052 <QueryDict: {'image': [<InMemoryUploadedFile: c2h6.tiff (image/tiff)>], 'object_3D': [<InMemoryUploadedFile: c2h6.obj (model/obj)>], 'mtl': [<InMemoryUploadedFile: c2h6.mtl (model/mtl)>]}>
+INFO 2021-11-02 19:52:22,321 views 37020 39052 Image uploaded successfully
+INFO 2021-11-02 19:52:22,642 basehttp 37020 39052 "POST /playground/upload-image/ HTTP/1.1" 200 176
+INFO 2021-11-02 19:52:57,193 views 37020 39052 <QueryDict: {'image': [<InMemoryUploadedFile: c2h6.tiff (image/tiff)>]}>
+INFO 2021-11-02 19:52:58,624 views 37020 39052 {'image-id': '0ee59053-3c51-11ec-bd4e-30e37a563ece', 'name': 'images/c2h6.tiff'}
+INFO 2021-11-02 19:52:58,744 basehttp 37020 39052 "POST /playground/find-image/ HTTP/1.1" 200 77
+INFO 2022-01-25 13:40:34,948 autoreload 16504 23524 Watching for file changes with StatReloader
+INFO 2022-01-25 13:42:41,275 autoreload 7908 9488 Watching for file changes with StatReloader
