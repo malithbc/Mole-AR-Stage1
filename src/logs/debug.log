@@ -255,3 +255,277 @@ INFO 2021-11-02 19:52:58,624 views 37020 39052 {'image-id': '0ee59053-3c51-11ec-
 INFO 2021-11-02 19:52:58,744 basehttp 37020 39052 "POST /playground/find-image/ HTTP/1.1" 200 77
 INFO 2022-01-25 13:40:34,948 autoreload 16504 23524 Watching for file changes with StatReloader
 INFO 2022-01-25 13:42:41,275 autoreload 7908 9488 Watching for file changes with StatReloader
+INFO 2022-02-27 01:16:11,659 autoreload 9960 11652 Watching for file changes with StatReloader
+INFO 2022-02-27 01:17:25,527 views 9960 9552 b'----------------------------059571155737814221758295\r\nContent-Disposition: form-data; name="username"\r\n\r\nmalithbc\r\n----------------------------059571155737814221758295\r\nContent-Disposition: form-data; name="password"\r\n\r\n12345\r\n----------------------------059571155737814221758295--\r\n'
+ERROR 2022-02-27 01:17:26,155 log 9960 9552 Internal Server Error: /playground/login/
+Traceback (most recent call last):
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\AR_molecule\src\playground\views.py", line 199, in login_user
+    reqBody = json.loads(request.body)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2022-02-27 01:17:26,351 basehttp 9960 9552 "POST /playground/login/ HTTP/1.1" 500 118250
+INFO 2022-02-27 01:17:46,251 views 9960 9552 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2022-02-27 01:17:48,785 basehttp 9960 9552 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2022-02-27 01:22:39,107 views 9960 9552 b'----------------------------690705694048936862164965\r\nContent-Disposition: form-data; name="username"\r\n\r\nmalithbc\r\n----------------------------690705694048936862164965\r\nContent-Disposition: form-data; name="password"\r\n\r\n12345\r\n----------------------------690705694048936862164965--\r\n'
+ERROR 2022-02-27 01:22:39,246 log 9960 9552 Internal Server Error: /playground/login/
+Traceback (most recent call last):
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\AR_molecule\src\playground\views.py", line 199, in login_user
+    reqBody = json.loads(request.body)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2022-02-27 01:22:39,326 basehttp 9960 9552 "POST /playground/login/ HTTP/1.1" 500 119202
+INFO 2022-02-27 01:22:51,976 views 9960 9552 b'{\r\n    "username": "malithbc",\r\n    "password": "12345"\r\n}'
+INFO 2022-02-27 01:22:53,376 basehttp 9960 9552 "POST /playground/login/ HTTP/1.1" 200 135
+INFO 2022-02-27 01:29:27,228 autoreload 9960 11652 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:29:28,478 autoreload 12532 13680 Watching for file changes with StatReloader
+INFO 2022-02-27 01:29:37,885 autoreload 12532 13680 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:29:39,443 autoreload 10220 12980 Watching for file changes with StatReloader
+INFO 2022-02-27 01:29:42,783 autoreload 10220 12980 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:29:44,315 autoreload 11032 11288 Watching for file changes with StatReloader
+INFO 2022-02-27 01:29:55,150 autoreload 11032 11288 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:29:56,193 autoreload 10476 9308 Watching for file changes with StatReloader
+INFO 2022-02-27 01:30:32,240 autoreload 10476 9308 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:30:34,014 autoreload 5536 9436 Watching for file changes with StatReloader
+INFO 2022-02-27 01:30:48,283 autoreload 5536 9436 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:30:49,480 autoreload 11688 12140 Watching for file changes with StatReloader
+INFO 2022-02-27 01:30:55,094 autoreload 11688 12140 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:30:56,713 autoreload 12904 6872 Watching for file changes with StatReloader
+INFO 2022-02-27 01:30:58,717 autoreload 12904 6872 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:00,179 autoreload 10068 13204 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:03,261 autoreload 10068 13204 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:04,790 autoreload 10616 13916 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:13,643 autoreload 10616 13916 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:14,594 autoreload 9348 13316 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:30,290 autoreload 9348 13316 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:31,980 autoreload 9880 8984 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:40,740 autoreload 9880 8984 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:41,761 autoreload 13324 10152 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:54,994 autoreload 13324 10152 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:31:56,357 autoreload 7508 11384 Watching for file changes with StatReloader
+INFO 2022-02-27 01:31:59,428 autoreload 7508 11384 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:01,097 autoreload 5112 14104 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:15,326 autoreload 5112 14104 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:16,528 autoreload 8904 11856 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:22,037 autoreload 8904 11856 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:23,441 autoreload 10216 7832 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:27,643 autoreload 10216 7832 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:28,947 autoreload 3120 3852 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:35,889 autoreload 3120 3852 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:37,403 autoreload 11604 2656 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:40,917 autoreload 11604 2656 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:41,863 autoreload 14140 12992 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:46,733 autoreload 14140 12992 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:48,086 autoreload 13328 10064 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:53,461 autoreload 13328 10064 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:32:54,853 autoreload 2608 9756 Watching for file changes with StatReloader
+INFO 2022-02-27 01:32:59,996 autoreload 2608 9756 D:\AR_molecule\src\playground\views.py changed, reloading.
+INFO 2022-02-27 01:33:00,939 autoreload 11256 3836 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:06,992 autoreload 11256 3836 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:08,069 autoreload 9900 9532 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:15,586 autoreload 9900 9532 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:16,707 autoreload 8336 13684 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:18,408 autoreload 8336 13684 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:19,366 autoreload 11256 9728 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:25,818 autoreload 11256 9728 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:27,448 autoreload 5640 13224 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:29,362 autoreload 5640 13224 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:30,990 autoreload 13564 6340 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:32,957 autoreload 13564 6340 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:33,980 autoreload 2124 12504 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:42,502 autoreload 2124 12504 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:43,475 autoreload 8076 9056 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:45,352 autoreload 8076 9056 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:46,313 autoreload 11484 8876 Watching for file changes with StatReloader
+INFO 2022-02-27 01:36:52,873 autoreload 11484 8876 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:36:54,331 autoreload 11664 7508 Watching for file changes with StatReloader
+INFO 2022-02-27 01:37:18,010 autoreload 11664 7508 D:\AR_molecule\src\playground\urls.py changed, reloading.
+INFO 2022-02-27 01:37:19,545 autoreload 9056 12924 Watching for file changes with StatReloader
+INFO 2022-02-27 02:02:01,488 autoreload 14492 14344 Watching for file changes with StatReloader
+INFO 2022-02-27 02:02:22,853 views 14492 2352 {}
+INFO 2022-02-27 02:02:22,853 views 14492 2352 hello
+INFO 2022-02-27 02:02:22,853 views 14492 2352 Send email to activate account
+ERROR 2022-02-27 02:02:29,781 log 14492 2352 Internal Server Error: /playground/testmail/
+Traceback (most recent call last):
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\AR_molecule\src\playground\views.py", line 356, in test_Email
+    send_mail(data2)
+  File "D:\AR_molecule\src\playground\utils.py", line 72, in send_mail
+    email.send()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 745, in login
+    raise last_exception
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 734, in login
+    (code, resp) = self.auth(
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 657, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m5-20020a056a00080500b004e174acd876sm7952826pfk.216 - gsmtp')
+ERROR 2022-02-27 02:02:29,857 basehttp 14492 2352 "GET /playground/testmail/ HTTP/1.1" 500 139642
+INFO 2022-02-27 02:06:31,157 views 14492 2352 {'username': 'malith2', 'password': '12345', 'email': 'mmadushan666@gmail.com'}
+INFO 2022-02-27 02:06:33,320 views 14492 2352 Send email to activate account
+ERROR 2022-02-27 02:06:36,039 log 14492 2352 Internal Server Error: /playground/register/
+Traceback (most recent call last):
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\AR_molecule\src\playground\views.py", line 174, in Register_Users
+    send_mail(data2)
+  File "D:\AR_molecule\src\playground\utils.py", line 72, in send_mail
+    email.send()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 745, in login
+    raise last_exception
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 734, in login
+    (code, resp) = self.auth(
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 657, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m5-20020a056a00080500b004e174acd876sm7957193pfk.216 - gsmtp')
+ERROR 2022-02-27 02:06:36,344 basehttp 14492 2352 "POST /playground/register/ HTTP/1.1" 500 142151
+INFO 2022-02-27 02:14:25,647 autoreload 14492 14344 D:\AR_molecule\src\storefront\settings.py changed, reloading.
+INFO 2022-02-27 02:14:27,063 autoreload 15712 16088 Watching for file changes with StatReloader
+INFO 2022-02-27 02:14:38,648 views 15712 13104 {'username': 'malith2', 'password': '12345', 'email': 'mmadushan666@gmail.com'}
+ERROR 2022-02-27 02:14:39,395 views 15712 13104 {'username': [ErrorDetail(string='This field must be unique.', code='unique')], 'email': [ErrorDetail(string='This field must be unique.', code='unique')]}
+INFO 2022-02-27 02:14:39,510 basehttp 15712 13104 "POST /playground/register/ HTTP/1.1" 200 82
+INFO 2022-02-27 02:16:04,805 views 15712 13104 {}
+INFO 2022-02-27 02:16:04,806 views 15712 13104 hello
+INFO 2022-02-27 02:16:04,806 views 15712 13104 Send email to activate account
+ERROR 2022-02-27 02:16:07,698 log 15712 13104 Internal Server Error: /playground/testmail/
+Traceback (most recent call last):
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\AR_molecule\src\playground\views.py", line 356, in test_Email
+    send_mail(data2)
+  File "D:\AR_molecule\src\playground\utils.py", line 72, in send_mail
+    email.send()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 745, in login
+    raise last_exception
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 734, in login
+    (code, resp) = self.auth(
+  File "C:\Users\Malith\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 657, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials k13-20020a056a00134d00b004f35ee59a9dsm8374280pfu.106 - gsmtp')
+ERROR 2022-02-27 02:16:07,763 basehttp 15712 13104 "GET /playground/testmail/ HTTP/1.1" 500 139651
+INFO 2022-02-27 02:24:29,261 views 15712 13104 {}
+INFO 2022-02-27 02:24:29,261 views 15712 13104 hello
+INFO 2022-02-27 02:24:29,261 views 15712 13104 Send email to activate account
+INFO 2022-02-27 02:24:32,304 basehttp 15712 13104 "GET /playground/testmail/ HTTP/1.1" 200 16
+INFO 2022-02-27 10:50:17,038 autoreload 8516 1548 Watching for file changes with StatReloader
+INFO 2022-02-27 10:51:08,692 views 8516 10200 {}
+INFO 2022-02-27 10:51:08,692 views 8516 10200 hello
+INFO 2022-02-27 10:51:08,692 views 8516 10200 Send email to activate account
+INFO 2022-02-27 10:51:13,265 basehttp 8516 10200 "GET /playground/testmail/ HTTP/1.1" 200 16
+INFO 2022-02-27 11:47:23,349 autoreload 8516 1548 D:\AR_molecule\src\storefront\settings.py changed, reloading.
+INFO 2022-02-27 11:47:26,088 autoreload 13304 12620 Watching for file changes with StatReloader
+INFO 2022-02-27 11:47:37,579 views 13304 9120 {}
+INFO 2022-02-27 11:47:37,580 views 13304 9120 hello
+INFO 2022-02-27 11:47:37,580 views 13304 9120 Send email to activate account
+INFO 2022-02-27 11:47:41,056 basehttp 13304 9120 "GET /playground/testmail/ HTTP/1.1" 200 16

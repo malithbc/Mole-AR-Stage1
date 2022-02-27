@@ -158,11 +158,13 @@ REST_FRAMEWORK = {
     # 'DEFAULT_PERMISSION_CLASSES': ( 'rest_framework.permissions.IsAdminUser', ),
 }
 
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'fypmalith@gmail.com'
-EMAIL_HOST_PASSWORD = '12345@fypmalith'
+EMAIL_HOST_PASSWORD = 'bandaranayaka@college'
 
 
 LOGGING = {

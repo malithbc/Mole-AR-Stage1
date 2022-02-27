@@ -340,3 +340,30 @@ def getAllImage(request):
     except BaseException as e:
         logger.error(str(e))
         raise ValidationError({"400": f'{str(e)}'})
+
+
+@api_view(["GET"])
+@permission_classes([AllowAny])
+def test_Email(request):
+    try:
+        logger.info(request.data)
+        logger.info("hello")
+        email_body = 'Hi '+"malith" + \
+            ' Use the link below to verify your email \n'
+        data2 = {'email_body': email_body, 'to_email': "malithattanayaka99@gmail.com",
+                'email_subject': 'Verify your email'}
+        logger.info("Send email to activate account")
+        send_mail(data2)
+
+        data = {"msg":"verify"}
+        return Response(data)
+    
+    except IntegrityError as e:
+        account=User.objects.get(username='')
+        account.delete()
+        logger.error(str(e))
+        raise ValidationError({"400": f'{str(e)}'})
+
+    except KeyError as e:
+        logger.error(str(e))
+        raise ValidationError({"400": f'Field {str(e)} missing'})
