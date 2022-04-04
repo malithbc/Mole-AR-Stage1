@@ -10,6 +10,10 @@
 
 5. Install the dependencies using `pip install -r requirements.txt`
 
-6. Migrate existing db tables by running `python manage.py migrate`
+6. Setup MySQL database using configuration in settings.py
+7. Run the `python manage.py makemigrations`
+8. Migrate existing db tables by running `python manage.py migrate`
 
-7. Run the django development server using `python manage.py runserver`
+9. Run the django development server using `python manage.py runserver`
+10. First upload the 2D molecule images to the system (Sample images in src/images folder)
+11. Then check the image similarity.
